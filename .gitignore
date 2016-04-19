@@ -5,5 +5,3 @@ archives
 node_modules
 npm-debug.log
 bower_components
-test
-tests

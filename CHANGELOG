@@ -231,3 +231,9 @@ Generate :
 # - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 1. Fix push  not reseting `right:auto;`
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# 3.0.5
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. Added `gr-auto`: give `width: auto` and common CSS for grids

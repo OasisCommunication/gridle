@@ -175,6 +175,13 @@
         @include _gridle_generate_grid_classes(gridle_get_state_var(extends, $state), $package);
     }
 
+    // grid auto class
+    @if _gridle_need_to_generate(grid, $package) {
+        #{_gridle_classname(grid, $state, auto)} {
+            @include gridle_grid( auto );
+        }
+    }
+
     // generate all classes for columns
     $i : 0;
     @each $columnName, $column in gridle_get_columns($state) {

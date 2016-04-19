@@ -176,7 +176,11 @@
 	$columns,
 	$context : null
 ) {
-	@if $columns == grow {
+	@if $columns == auto {
+		@include _gridle_call(grid) {
+			width: auto;
+		}
+	}@else if $columns == grow {
 		@include gridle_grid_grow();
 	} @else if $columns == adapt {
 		@include gridle_grid_adapt();
