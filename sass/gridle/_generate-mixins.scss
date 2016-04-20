@@ -271,6 +271,9 @@
         #{_gridle_classname(clear, $state, right)} {
             @include gridle_clear(right);
         }
+        #{_gridle_classname(clear, $state, none)} {
+            @include gridle_clear(none);
+        }
     }
 
     @if _gridle_need_to_generate(no-gutter, $package) {

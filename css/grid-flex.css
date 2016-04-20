@@ -44,7 +44,7 @@
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
 }
-.gr-1on5, .gr-0, .gr-1, .gr-2, .gr-3, .gr-4, .gr-5, .gr-6, .gr-7, .gr-8, .gr-9, .gr-10, .gr-11, .gr-12 {
+.gr-auto, .gr-1on5, .gr-0, .gr-1, .gr-2, .gr-3, .gr-4, .gr-5, .gr-6, .gr-7, .gr-8, .gr-9, .gr-10, .gr-11, .gr-12 {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -moz-box-flex: 0;
@@ -65,7 +65,7 @@
   padding-left: 10px;
 }
 
-.state-default .gr-1on5, .state-default .gr-0, .state-default .gr-1, .state-default .gr-2, .state-default .gr-3, .state-default .gr-4, .state-default .gr-5, .state-default .gr-6, .state-default .gr-7, .state-default .gr-8, .state-default .gr-9, .state-default .gr-10, .state-default .gr-11, .state-default .gr-12 {
+.state-default .gr-auto, .state-default .gr-1on5, .state-default .gr-0, .state-default .gr-1, .state-default .gr-2, .state-default .gr-3, .state-default .gr-4, .state-default .gr-5, .state-default .gr-6, .state-default .gr-7, .state-default .gr-8, .state-default .gr-9, .state-default .gr-10, .state-default .gr-11, .state-default .gr-12 {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -moz-box-flex: 0;
@@ -301,7 +301,7 @@
   flex: 0 1 auto;
 }
 @media screen and (max-width: 480px) {
-  .gr-1on5, .gr-0, .gr-1, .gr-2, .gr-3, .gr-4, .gr-5, .gr-6, .gr-7, .gr-8, .gr-9, .gr-10, .gr-11, .gr-12, .gr-1on5\@mobile, .gr-0\@mobile, .gr-1\@mobile, .gr-2\@mobile, .gr-3\@mobile, .gr-4\@mobile, .gr-5\@mobile, .gr-6\@mobile, .gr-7\@mobile, .gr-8\@mobile, .gr-9\@mobile, .gr-10\@mobile, .gr-11\@mobile, .gr-12\@mobile, .state-default [class*="gr-"], [class*="gr-"] {
+  .gr-auto, .gr-1on5, .gr-0, .gr-1, .gr-2, .gr-3, .gr-4, .gr-5, .gr-6, .gr-7, .gr-8, .gr-9, .gr-10, .gr-11, .gr-12, .gr-auto\@mobile, .gr-1on5\@mobile, .gr-0\@mobile, .gr-1\@mobile, .gr-2\@mobile, .gr-3\@mobile, .gr-4\@mobile, .gr-5\@mobile, .gr-6\@mobile, .gr-7\@mobile, .gr-8\@mobile, .gr-9\@mobile, .gr-10\@mobile, .gr-11\@mobile, .gr-12\@mobile, .state-default [class*="gr-"], [class*="gr-"] {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -moz-box-flex: 0;
@@ -322,7 +322,7 @@
     padding-left: 10px;
   }
 }
-.state-mobile .gr-1on5, .state-mobile .gr-0, .state-mobile .gr-1, .state-mobile .gr-2, .state-mobile .gr-3, .state-mobile .gr-4, .state-mobile .gr-5, .state-mobile .gr-6, .state-mobile .gr-7, .state-mobile .gr-8, .state-mobile .gr-9, .state-mobile .gr-10, .state-mobile .gr-11, .state-mobile .gr-12, .state-mobile .gr-1on5\@mobile, .state-mobile .gr-0\@mobile, .state-mobile .gr-1\@mobile, .state-mobile .gr-2\@mobile, .state-mobile .gr-3\@mobile, .state-mobile .gr-4\@mobile, .state-mobile .gr-5\@mobile, .state-mobile .gr-6\@mobile, .state-mobile .gr-7\@mobile, .state-mobile .gr-8\@mobile, .state-mobile .gr-9\@mobile, .state-mobile .gr-10\@mobile, .state-mobile .gr-11\@mobile, .state-mobile .gr-12\@mobile, .state-mobile .state-default [class*="gr-"], .state-mobile [class*="gr-"] {
+.state-mobile .gr-auto, .state-mobile .gr-1on5, .state-mobile .gr-0, .state-mobile .gr-1, .state-mobile .gr-2, .state-mobile .gr-3, .state-mobile .gr-4, .state-mobile .gr-5, .state-mobile .gr-6, .state-mobile .gr-7, .state-mobile .gr-8, .state-mobile .gr-9, .state-mobile .gr-10, .state-mobile .gr-11, .state-mobile .gr-12, .state-mobile .gr-auto\@mobile, .state-mobile .gr-1on5\@mobile, .state-mobile .gr-0\@mobile, .state-mobile .gr-1\@mobile, .state-mobile .gr-2\@mobile, .state-mobile .gr-3\@mobile, .state-mobile .gr-4\@mobile, .state-mobile .gr-5\@mobile, .state-mobile .gr-6\@mobile, .state-mobile .gr-7\@mobile, .state-mobile .gr-8\@mobile, .state-mobile .gr-9\@mobile, .state-mobile .gr-10\@mobile, .state-mobile .gr-11\@mobile, .state-mobile .gr-12\@mobile, .state-mobile .state-default [class*="gr-"], .state-mobile [class*="gr-"] {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -moz-box-flex: 0;
@@ -565,7 +565,7 @@
   flex: 0 1 auto;
 }
 @media screen and (min-width: 481px) and (max-width: 1024px) {
-  .gr-1on5, .gr-0, .gr-1, .gr-2, .gr-3, .gr-4, .gr-5, .gr-6, .gr-7, .gr-8, .gr-9, .gr-10, .gr-11, .gr-12, .gr-1on5\@mobile, .gr-0\@mobile, .gr-1\@mobile, .gr-2\@mobile, .gr-3\@mobile, .gr-4\@mobile, .gr-5\@mobile, .gr-6\@mobile, .gr-7\@mobile, .gr-8\@mobile, .gr-9\@mobile, .gr-10\@mobile, .gr-11\@mobile, .gr-12\@mobile, .gr-1on5\@tablet, .gr-0\@tablet, .gr-1\@tablet, .gr-2\@tablet, .gr-3\@tablet, .gr-4\@tablet, .gr-5\@tablet, .gr-6\@tablet, .gr-7\@tablet, .gr-8\@tablet, .gr-9\@tablet, .gr-10\@tablet, .gr-11\@tablet, .gr-12\@tablet {
+  .gr-auto, .gr-1on5, .gr-0, .gr-1, .gr-2, .gr-3, .gr-4, .gr-5, .gr-6, .gr-7, .gr-8, .gr-9, .gr-10, .gr-11, .gr-12, .gr-auto\@mobile, .gr-1on5\@mobile, .gr-0\@mobile, .gr-1\@mobile, .gr-2\@mobile, .gr-3\@mobile, .gr-4\@mobile, .gr-5\@mobile, .gr-6\@mobile, .gr-7\@mobile, .gr-8\@mobile, .gr-9\@mobile, .gr-10\@mobile, .gr-11\@mobile, .gr-12\@mobile, .gr-auto\@tablet, .gr-1on5\@tablet, .gr-0\@tablet, .gr-1\@tablet, .gr-2\@tablet, .gr-3\@tablet, .gr-4\@tablet, .gr-5\@tablet, .gr-6\@tablet, .gr-7\@tablet, .gr-8\@tablet, .gr-9\@tablet, .gr-10\@tablet, .gr-11\@tablet, .gr-12\@tablet {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -moz-box-flex: 0;
@@ -586,7 +586,7 @@
     padding-left: 10px;
   }
 }
-.state-tablet .gr-1on5, .state-tablet .gr-0, .state-tablet .gr-1, .state-tablet .gr-2, .state-tablet .gr-3, .state-tablet .gr-4, .state-tablet .gr-5, .state-tablet .gr-6, .state-tablet .gr-7, .state-tablet .gr-8, .state-tablet .gr-9, .state-tablet .gr-10, .state-tablet .gr-11, .state-tablet .gr-12, .state-tablet .gr-1on5\@mobile, .state-tablet .gr-0\@mobile, .state-tablet .gr-1\@mobile, .state-tablet .gr-2\@mobile, .state-tablet .gr-3\@mobile, .state-tablet .gr-4\@mobile, .state-tablet .gr-5\@mobile, .state-tablet .gr-6\@mobile, .state-tablet .gr-7\@mobile, .state-tablet .gr-8\@mobile, .state-tablet .gr-9\@mobile, .state-tablet .gr-10\@mobile, .state-tablet .gr-11\@mobile, .state-tablet .gr-12\@mobile, .state-tablet .gr-1on5\@tablet, .state-tablet .gr-0\@tablet, .state-tablet .gr-1\@tablet, .state-tablet .gr-2\@tablet, .state-tablet .gr-3\@tablet, .state-tablet .gr-4\@tablet, .state-tablet .gr-5\@tablet, .state-tablet .gr-6\@tablet, .state-tablet .gr-7\@tablet, .state-tablet .gr-8\@tablet, .state-tablet .gr-9\@tablet, .state-tablet .gr-10\@tablet, .state-tablet .gr-11\@tablet, .state-tablet .gr-12\@tablet {
+.state-tablet .gr-auto, .state-tablet .gr-1on5, .state-tablet .gr-0, .state-tablet .gr-1, .state-tablet .gr-2, .state-tablet .gr-3, .state-tablet .gr-4, .state-tablet .gr-5, .state-tablet .gr-6, .state-tablet .gr-7, .state-tablet .gr-8, .state-tablet .gr-9, .state-tablet .gr-10, .state-tablet .gr-11, .state-tablet .gr-12, .state-tablet .gr-auto\@mobile, .state-tablet .gr-1on5\@mobile, .state-tablet .gr-0\@mobile, .state-tablet .gr-1\@mobile, .state-tablet .gr-2\@mobile, .state-tablet .gr-3\@mobile, .state-tablet .gr-4\@mobile, .state-tablet .gr-5\@mobile, .state-tablet .gr-6\@mobile, .state-tablet .gr-7\@mobile, .state-tablet .gr-8\@mobile, .state-tablet .gr-9\@mobile, .state-tablet .gr-10\@mobile, .state-tablet .gr-11\@mobile, .state-tablet .gr-12\@mobile, .state-tablet .gr-auto\@tablet, .state-tablet .gr-1on5\@tablet, .state-tablet .gr-0\@tablet, .state-tablet .gr-1\@tablet, .state-tablet .gr-2\@tablet, .state-tablet .gr-3\@tablet, .state-tablet .gr-4\@tablet, .state-tablet .gr-5\@tablet, .state-tablet .gr-6\@tablet, .state-tablet .gr-7\@tablet, .state-tablet .gr-8\@tablet, .state-tablet .gr-9\@tablet, .state-tablet .gr-10\@tablet, .state-tablet .gr-11\@tablet, .state-tablet .gr-12\@tablet {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -moz-box-flex: 0;
@@ -829,7 +829,7 @@
   flex: 0 1 auto;
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  .gr-1on5, .gr-0, .gr-1, .gr-2, .gr-3, .gr-4, .gr-5, .gr-6, .gr-7, .gr-8, .gr-9, .gr-10, .gr-11, .gr-12, .gr-1on5\@mobile, .gr-0\@mobile, .gr-1\@mobile, .gr-2\@mobile, .gr-3\@mobile, .gr-4\@mobile, .gr-5\@mobile, .gr-6\@mobile, .gr-7\@mobile, .gr-8\@mobile, .gr-9\@mobile, .gr-10\@mobile, .gr-11\@mobile, .gr-12\@mobile, .gr-1on5\@tablet, .gr-0\@tablet, .gr-1\@tablet, .gr-2\@tablet, .gr-3\@tablet, .gr-4\@tablet, .gr-5\@tablet, .gr-6\@tablet, .gr-7\@tablet, .gr-8\@tablet, .gr-9\@tablet, .gr-10\@tablet, .gr-11\@tablet, .gr-12\@tablet, .gr-1on5\@ipad-landscape, .gr-0\@ipad-landscape, .gr-1\@ipad-landscape, .gr-2\@ipad-landscape, .gr-3\@ipad-landscape, .gr-4\@ipad-landscape, .gr-5\@ipad-landscape, .gr-6\@ipad-landscape, .gr-7\@ipad-landscape, .gr-8\@ipad-landscape, .gr-9\@ipad-landscape, .gr-10\@ipad-landscape, .gr-11\@ipad-landscape, .gr-12\@ipad-landscape {
+  .gr-auto, .gr-1on5, .gr-0, .gr-1, .gr-2, .gr-3, .gr-4, .gr-5, .gr-6, .gr-7, .gr-8, .gr-9, .gr-10, .gr-11, .gr-12, .gr-auto\@mobile, .gr-1on5\@mobile, .gr-0\@mobile, .gr-1\@mobile, .gr-2\@mobile, .gr-3\@mobile, .gr-4\@mobile, .gr-5\@mobile, .gr-6\@mobile, .gr-7\@mobile, .gr-8\@mobile, .gr-9\@mobile, .gr-10\@mobile, .gr-11\@mobile, .gr-12\@mobile, .gr-auto\@tablet, .gr-1on5\@tablet, .gr-0\@tablet, .gr-1\@tablet, .gr-2\@tablet, .gr-3\@tablet, .gr-4\@tablet, .gr-5\@tablet, .gr-6\@tablet, .gr-7\@tablet, .gr-8\@tablet, .gr-9\@tablet, .gr-10\@tablet, .gr-11\@tablet, .gr-12\@tablet, .gr-auto\@ipad-landscape, .gr-1on5\@ipad-landscape, .gr-0\@ipad-landscape, .gr-1\@ipad-landscape, .gr-2\@ipad-landscape, .gr-3\@ipad-landscape, .gr-4\@ipad-landscape, .gr-5\@ipad-landscape, .gr-6\@ipad-landscape, .gr-7\@ipad-landscape, .gr-8\@ipad-landscape, .gr-9\@ipad-landscape, .gr-10\@ipad-landscape, .gr-11\@ipad-landscape, .gr-12\@ipad-landscape {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -moz-box-flex: 0;
@@ -852,7 +852,7 @@
     padding-left: 15px;
   }
 }
-.state-ipad-landscape .gr-1on5, .state-ipad-landscape .gr-0, .state-ipad-landscape .gr-1, .state-ipad-landscape .gr-2, .state-ipad-landscape .gr-3, .state-ipad-landscape .gr-4, .state-ipad-landscape .gr-5, .state-ipad-landscape .gr-6, .state-ipad-landscape .gr-7, .state-ipad-landscape .gr-8, .state-ipad-landscape .gr-9, .state-ipad-landscape .gr-10, .state-ipad-landscape .gr-11, .state-ipad-landscape .gr-12, .state-ipad-landscape .gr-1on5\@mobile, .state-ipad-landscape .gr-0\@mobile, .state-ipad-landscape .gr-1\@mobile, .state-ipad-landscape .gr-2\@mobile, .state-ipad-landscape .gr-3\@mobile, .state-ipad-landscape .gr-4\@mobile, .state-ipad-landscape .gr-5\@mobile, .state-ipad-landscape .gr-6\@mobile, .state-ipad-landscape .gr-7\@mobile, .state-ipad-landscape .gr-8\@mobile, .state-ipad-landscape .gr-9\@mobile, .state-ipad-landscape .gr-10\@mobile, .state-ipad-landscape .gr-11\@mobile, .state-ipad-landscape .gr-12\@mobile, .state-ipad-landscape .gr-1on5\@tablet, .state-ipad-landscape .gr-0\@tablet, .state-ipad-landscape .gr-1\@tablet, .state-ipad-landscape .gr-2\@tablet, .state-ipad-landscape .gr-3\@tablet, .state-ipad-landscape .gr-4\@tablet, .state-ipad-landscape .gr-5\@tablet, .state-ipad-landscape .gr-6\@tablet, .state-ipad-landscape .gr-7\@tablet, .state-ipad-landscape .gr-8\@tablet, .state-ipad-landscape .gr-9\@tablet, .state-ipad-landscape .gr-10\@tablet, .state-ipad-landscape .gr-11\@tablet, .state-ipad-landscape .gr-12\@tablet, .state-ipad-landscape .gr-1on5\@ipad-landscape, .state-ipad-landscape .gr-0\@ipad-landscape, .state-ipad-landscape .gr-1\@ipad-landscape, .state-ipad-landscape .gr-2\@ipad-landscape, .state-ipad-landscape .gr-3\@ipad-landscape, .state-ipad-landscape .gr-4\@ipad-landscape, .state-ipad-landscape .gr-5\@ipad-landscape, .state-ipad-landscape .gr-6\@ipad-landscape, .state-ipad-landscape .gr-7\@ipad-landscape, .state-ipad-landscape .gr-8\@ipad-landscape, .state-ipad-landscape .gr-9\@ipad-landscape, .state-ipad-landscape .gr-10\@ipad-landscape, .state-ipad-landscape .gr-11\@ipad-landscape, .state-ipad-landscape .gr-12\@ipad-landscape {
+.state-ipad-landscape .gr-auto, .state-ipad-landscape .gr-1on5, .state-ipad-landscape .gr-0, .state-ipad-landscape .gr-1, .state-ipad-landscape .gr-2, .state-ipad-landscape .gr-3, .state-ipad-landscape .gr-4, .state-ipad-landscape .gr-5, .state-ipad-landscape .gr-6, .state-ipad-landscape .gr-7, .state-ipad-landscape .gr-8, .state-ipad-landscape .gr-9, .state-ipad-landscape .gr-10, .state-ipad-landscape .gr-11, .state-ipad-landscape .gr-12, .state-ipad-landscape .gr-auto\@mobile, .state-ipad-landscape .gr-1on5\@mobile, .state-ipad-landscape .gr-0\@mobile, .state-ipad-landscape .gr-1\@mobile, .state-ipad-landscape .gr-2\@mobile, .state-ipad-landscape .gr-3\@mobile, .state-ipad-landscape .gr-4\@mobile, .state-ipad-landscape .gr-5\@mobile, .state-ipad-landscape .gr-6\@mobile, .state-ipad-landscape .gr-7\@mobile, .state-ipad-landscape .gr-8\@mobile, .state-ipad-landscape .gr-9\@mobile, .state-ipad-landscape .gr-10\@mobile, .state-ipad-landscape .gr-11\@mobile, .state-ipad-landscape .gr-12\@mobile, .state-ipad-landscape .gr-auto\@tablet, .state-ipad-landscape .gr-1on5\@tablet, .state-ipad-landscape .gr-0\@tablet, .state-ipad-landscape .gr-1\@tablet, .state-ipad-landscape .gr-2\@tablet, .state-ipad-landscape .gr-3\@tablet, .state-ipad-landscape .gr-4\@tablet, .state-ipad-landscape .gr-5\@tablet, .state-ipad-landscape .gr-6\@tablet, .state-ipad-landscape .gr-7\@tablet, .state-ipad-landscape .gr-8\@tablet, .state-ipad-landscape .gr-9\@tablet, .state-ipad-landscape .gr-10\@tablet, .state-ipad-landscape .gr-11\@tablet, .state-ipad-landscape .gr-12\@tablet, .state-ipad-landscape .gr-auto\@ipad-landscape, .state-ipad-landscape .gr-1on5\@ipad-landscape, .state-ipad-landscape .gr-0\@ipad-landscape, .state-ipad-landscape .gr-1\@ipad-landscape, .state-ipad-landscape .gr-2\@ipad-landscape, .state-ipad-landscape .gr-3\@ipad-landscape, .state-ipad-landscape .gr-4\@ipad-landscape, .state-ipad-landscape .gr-5\@ipad-landscape, .state-ipad-landscape .gr-6\@ipad-landscape, .state-ipad-landscape .gr-7\@ipad-landscape, .state-ipad-landscape .gr-8\@ipad-landscape, .state-ipad-landscape .gr-9\@ipad-landscape, .state-ipad-landscape .gr-10\@ipad-landscape, .state-ipad-landscape .gr-11\@ipad-landscape, .state-ipad-landscape .gr-12\@ipad-landscape {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -moz-box-flex: 0;
@@ -2868,6 +2868,9 @@
     margin-right: -15px;
   }
 }
+.state-default .gr-auto {
+  width: auto;
+}
 .state-default .gr-1on5 {
   -webkit-flex-basis: 20%;
   -moz-flex-basis: 20%;
@@ -3456,6 +3459,10 @@
   -ms-flex-order: 9999;
   order: 9999;
 }
+.gr-auto {
+  width: auto;
+}
+
 .gr-1on5 {
   -webkit-flex-basis: 20%;
   -moz-flex-basis: 20%;
@@ -4156,6 +4163,9 @@
   order: 9999;
 }
 
+.state-mobile .gr-auto {
+  width: auto;
+}
 .state-mobile .gr-1on5 {
   -webkit-flex-basis: 20%;
   -moz-flex-basis: 20%;
@@ -4743,6 +4753,9 @@
   -moz-order: 9999;
   -ms-flex-order: 9999;
   order: 9999;
+}
+.state-mobile .gr-auto\@mobile {
+  width: auto;
 }
 .state-mobile .gr-1on5\@mobile {
   -webkit-flex-basis: 20%;
@@ -5333,6 +5346,10 @@
   order: 9999;
 }
 @media screen and (max-width: 480px) {
+  .gr-auto {
+    width: auto;
+  }
+
   .gr-1on5 {
     -webkit-flex-basis: 20%;
     -moz-flex-basis: 20%;
@@ -6031,6 +6048,10 @@
     -moz-order: 9999;
     -ms-flex-order: 9999;
     order: 9999;
+  }
+
+  .gr-auto\@mobile {
+    width: auto;
   }
 
   .gr-1on5\@mobile {
@@ -6733,6 +6754,9 @@
     order: 9999;
   }
 }
+.state-tablet .gr-auto {
+  width: auto;
+}
 .state-tablet .gr-1on5 {
   -webkit-flex-basis: 20%;
   -moz-flex-basis: 20%;
@@ -7321,6 +7345,9 @@
   -ms-flex-order: 9999;
   order: 9999;
 }
+.state-tablet .gr-auto\@mobile {
+  width: auto;
+}
 .state-tablet .gr-1on5\@mobile {
   -webkit-flex-basis: 20%;
   -moz-flex-basis: 20%;
@@ -7908,6 +7935,9 @@
   -moz-order: 9999;
   -ms-flex-order: 9999;
   order: 9999;
+}
+.state-tablet .gr-auto\@tablet {
+  width: auto;
 }
 .state-tablet .gr-1on5\@tablet {
   -webkit-flex-basis: 20%;
@@ -8498,6 +8528,10 @@
   order: 9999;
 }
 @media screen and (min-width: 481px) and (max-width: 1024px) {
+  .gr-auto {
+    width: auto;
+  }
+
   .gr-1on5 {
     -webkit-flex-basis: 20%;
     -moz-flex-basis: 20%;
@@ -9196,6 +9230,10 @@
     -moz-order: 9999;
     -ms-flex-order: 9999;
     order: 9999;
+  }
+
+  .gr-auto\@mobile {
+    width: auto;
   }
 
   .gr-1on5\@mobile {
@@ -9898,6 +9936,10 @@
     order: 9999;
   }
 
+  .gr-auto\@tablet {
+    width: auto;
+  }
+
   .gr-1on5\@tablet {
     -webkit-flex-basis: 20%;
     -moz-flex-basis: 20%;
@@ -10598,6 +10640,9 @@
     order: 9999;
   }
 }
+.state-ipad-landscape .gr-auto {
+  width: auto;
+}
 .state-ipad-landscape .gr-1on5 {
   -webkit-flex-basis: 20%;
   -moz-flex-basis: 20%;
@@ -11185,6 +11230,9 @@
   -moz-order: 9999;
   -ms-flex-order: 9999;
   order: 9999;
+}
+.state-ipad-landscape .gr-auto\@mobile {
+  width: auto;
 }
 .state-ipad-landscape .gr-1on5\@mobile {
   -webkit-flex-basis: 20%;
@@ -11774,6 +11822,9 @@
   -ms-flex-order: 9999;
   order: 9999;
 }
+.state-ipad-landscape .gr-auto\@tablet {
+  width: auto;
+}
 .state-ipad-landscape .gr-1on5\@tablet {
   -webkit-flex-basis: 20%;
   -moz-flex-basis: 20%;
@@ -12361,6 +12412,9 @@
   -moz-order: 9999;
   -ms-flex-order: 9999;
   order: 9999;
+}
+.state-ipad-landscape .gr-auto\@ipad-landscape {
+  width: auto;
 }
 .state-ipad-landscape .gr-1on5\@ipad-landscape {
   -webkit-flex-basis: 20%;
@@ -12951,6 +13005,10 @@
   order: 9999;
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .gr-auto {
+    width: auto;
+  }
+
   .gr-1on5 {
     -webkit-flex-basis: 20%;
     -moz-flex-basis: 20%;
@@ -13649,6 +13707,10 @@
     -moz-order: 9999;
     -ms-flex-order: 9999;
     order: 9999;
+  }
+
+  .gr-auto\@mobile {
+    width: auto;
   }
 
   .gr-1on5\@mobile {
@@ -14351,6 +14413,10 @@
     order: 9999;
   }
 
+  .gr-auto\@tablet {
+    width: auto;
+  }
+
   .gr-1on5\@tablet {
     -webkit-flex-basis: 20%;
     -moz-flex-basis: 20%;
@@ -15049,6 +15115,10 @@
     -moz-order: 9999;
     -ms-flex-order: 9999;
     order: 9999;
+  }
+
+  .gr-auto\@ipad-landscape {
+    width: auto;
   }
 
   .gr-1on5\@ipad-landscape {
@@ -15769,6 +15839,9 @@
 .state-default .clear-right {
   clear: right;
 }
+.state-default .clear-none {
+  clear: none;
+}
 .state-default .no-gutter {
   padding-top: 0;
   padding-right: 0;
@@ -15919,6 +15992,10 @@
 
 .clear-right {
   clear: right;
+}
+
+.clear-none {
+  clear: none;
 }
 
 .no-gutter {
@@ -16091,6 +16168,9 @@
 .state-mobile .clear-right\@mobile {
   clear: right;
 }
+.state-mobile .clear-none\@mobile {
+  clear: none;
+}
 .state-mobile .no-gutter\@mobile {
   padding-top: 0;
   padding-right: 0;
@@ -16242,6 +16322,10 @@
 
   .clear-right\@mobile {
     clear: right;
+  }
+
+  .clear-none\@mobile {
+    clear: none;
   }
 
   .no-gutter\@mobile {
@@ -16414,6 +16498,9 @@
 .state-tablet .clear-right\@tablet {
   clear: right;
 }
+.state-tablet .clear-none\@tablet {
+  clear: none;
+}
 .state-tablet .no-gutter\@tablet {
   padding-top: 0;
   padding-right: 0;
@@ -16565,6 +16652,10 @@
 
   .clear-right\@tablet {
     clear: right;
+  }
+
+  .clear-none\@tablet {
+    clear: none;
   }
 
   .no-gutter\@tablet {
@@ -16737,6 +16828,9 @@
 .state-ipad-landscape .clear-right\@ipad-landscape {
   clear: right;
 }
+.state-ipad-landscape .clear-none\@ipad-landscape {
+  clear: none;
+}
 .state-ipad-landscape .no-gutter\@ipad-landscape {
   padding-top: 0;
   padding-right: 0;
@@ -16896,6 +16990,10 @@
 
   .clear-right\@ipad-landscape {
     clear: right;
+  }
+
+  .clear-none\@ipad-landscape {
+    clear: none;
   }
 
   .no-gutter\@ipad-landscape {

@@ -237,3 +237,9 @@ Generate :
 # - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 1. Added `gr-auto`: give `width: auto` and common CSS for grids
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# 3.0.6
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. Added `clear-none`: used to nullify clears
