@@ -243,3 +243,11 @@ Generate :
 # - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 1. Added `clear-none`: used to nullify clears
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# 3.0.7
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. Fixed setting `classes:false` still generating classes if being extended.
+
+TODO: add row-table class

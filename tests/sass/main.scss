@@ -24,6 +24,15 @@
 
 @include gridle_register_default_states();
 
+@include gridle_register_state( moblet , (
+    min-width : 767px,
+    classes : false
+) );
+
+@include gridle_register_state( testtt , (
+    min-width : 767px,
+) );
+
 
 
 // Init Gridle
