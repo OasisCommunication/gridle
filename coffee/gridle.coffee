@@ -517,6 +517,7 @@
                 _domLoaded = true;
                 callback();
             };`
+            return
 
         if window.addEventListener
             window.addEventListener 'load', () =>

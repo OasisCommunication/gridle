@@ -249,5 +249,6 @@ Generate :
 # - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 1. Fixed setting `classes:false` still generating classes if being extended.
+2. Fixed random `return` in coffee
 
 TODO: add row-table class
