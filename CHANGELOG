@@ -251,4 +251,10 @@ Generate :
 1. Fixed setting `classes:false` still generating classes if being extended.
 2. Fixed random `return` in coffee
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# 3.0.8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. Fixed `ready` event triggering more than once.
+
 TODO: add row-table class

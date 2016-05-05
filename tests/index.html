@@ -8,12 +8,17 @@
         //Load Griddle async after load
         $(window).on('load', function(){
             $('head').append("<script src='../js/gridle.js'></" + "script>");
+
+            console.log(Gridle)
+
+            Gridle.on('ready', function(){
+                console.log('READY!!!')
+            });
+
             Gridle.init({
                 debug : true,
                 ignoredStates : ['tablet']
             });
-
-            console.log(Gridle.getRegisteredStates());
         });
     </script>
     <link rel="stylesheet" href="css/main.css">

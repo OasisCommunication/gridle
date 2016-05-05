@@ -174,6 +174,7 @@
         Launch
         ###
         _launch : ->
+            firstReady = !@_isReady
 
             @_debug 'launch'
 
@@ -181,7 +182,7 @@
             @_isReady = true
 
             # emit ready event
-            @_crossEmit 'ready'
+            @_crossEmit 'ready' if firstReady
 
             # listen for window resize
             @_addEvent window, 'resize', (e) =>
