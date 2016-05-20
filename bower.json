@@ -10,9 +10,9 @@
     "sass/gridle/_driver-default.scss",
     "sass/gridle/_driver-flex.scss",
     "sass/gridle/_flexbox.scss",
-    "sass/gridle/_function.scss",
+    "sass/gridle/_functions.scss",
     "sass/gridle/_generate-mixins.scss",
-    "sass/gridle/_grid-flex.scss",
+    "sass/gridle/_gridle-flex.scss",
     "sass/gridle/_gridle.scss",
     "sass/gridle/_init.scss",
     "sass/gridle/_mixins.scss",
@@ -22,7 +22,7 @@
     "js/gridle.js",
     "js/gridle.min.js",
     "js/gridle-eq.js",
-    "js/gridle-eq.min.js"
+    "js/gridle.eq.min.js"
   ],
   "description": "Gridle grid system",
   "keywords": [

@@ -257,6 +257,10 @@ Generate :
 
 1. Fixed `ready` event triggering more than once.
 
-v .1 => update bower.json to include all files
-
 TODO: add row-table class
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# 3.0.9
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. Update bower.json to include all files
