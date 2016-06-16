@@ -109,6 +109,7 @@
         Load and parse css
         ###
         _parseCss : () ->
+            return undefined if @_statesFindedInCss
 
             # try to find gridle settings
             i = 0
@@ -147,6 +148,7 @@
                         throw e
                 i++
 
+            @_statesFindedInCss = settings_found
             # process states
             if @_statesInCss
                 @_processFindedStates()

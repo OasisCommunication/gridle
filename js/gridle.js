@@ -154,6 +154,9 @@ window.matchMedia || (window.matchMedia = function() {
      */
     _parseCss: function() {
       var e, error, i, idx, j, rule, rules, settings, settings_found;
+      if (this._statesFindedInCss) {
+        return void 0;
+      }
       i = 0;
       j = document.styleSheets.length;
       settings_found = false;
@@ -197,6 +200,7 @@ window.matchMedia || (window.matchMedia = function() {
         }
         i++;
       }
+      this._statesFindedInCss = settings_found;
       if (this._statesInCss) {
         return this._processFindedStates();
       } else {

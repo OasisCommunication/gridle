@@ -264,3 +264,9 @@ TODO: add row-table class
 # - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 1. Update bower.json to include all files
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# 3.0.10
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. Prevent `_parseCss` being trigger more than once.
