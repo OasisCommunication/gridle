@@ -646,7 +646,7 @@
   }
 }
 #gridle-settings {
-  content: '{ "version" : "3.0.10", "states" : { "default":{ "name" : "default", "min-width" : null, "max-width" : null, "query" : null, "classes" : true, "context" : "12", "column-width" : null, "gutter-width" : "20px", "gutter-height" : "0", "gutter-top" : "0", "gutter-right" : "10px", "gutter-bottom" : "0", "gutter-left" : "10px", "direction" : "ltr", "dir-attribute" : false, "name-multiplicator" : "1", "states-classes" : true, "classes-prefix" : null, "extends" : null, "_context_changed" : false, "_gutter_changed" : false, "_direction_changed" : false, "_" : true }, "mobile":{ "name" : "mobile", "min-width" : null, "max-width" : "480px", "query" : "screen and (max-width: 480px)", "classes" : true, "context" : "12", "column-width" : null, "gutter-width" : "20px", "gutter-height" : "0", "gutter-top" : "0", "gutter-right" : "10px", "gutter-bottom" : "0", "gutter-left" : "10px", "direction" : "ltr", "dir-attribute" : false, "name-multiplicator" : "1", "states-classes" : true, "classes-prefix" : null, "extends" : "default", "_context_changed" : false, "_gutter_changed" : false, "_direction_changed" : false, "_" : true }, "tablet":{ "name" : "tablet", "min-width" : "481px", "max-width" : "1024px", "query" : "screen and (min-width: 481px) and (max-width: 1024px)", "classes" : true, "context" : "12", "column-width" : null, "gutter-width" : "20px", "gutter-height" : "0", "gutter-top" : "0", "gutter-right" : "10px", "gutter-bottom" : "0", "gutter-left" : "10px", "direction" : "ltr", "dir-attribute" : false, "name-multiplicator" : "1", "states-classes" : true, "classes-prefix" : null, "extends" : "mobile", "_context_changed" : false, "_gutter_changed" : false, "_direction_changed" : false, "_" : true }, "ipad-landscape":{ "name" : "ipad-landscape", "min-width" : null, "max-width" : null, "query" : "only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)", "classes" : true, "context" : "12", "column-width" : null, "gutter-width" : "30px", "gutter-height" : "50px", "gutter-top" : "25px", "gutter-right" : "15px", "gutter-bottom" : "25px", "gutter-left" : "15px", "direction" : "ltr", "dir-attribute" : false, "name-multiplicator" : "1", "states-classes" : true, "classes-prefix" : null, "extends" : "tablet", "_context_changed" : false, "_gutter_changed" : true, "_direction_changed" : false, "_" : true }} }';
+  content: '{ "version" : "3.0.11", "states" : { "default":{ "name" : "default", "min-width" : null, "max-width" : null, "query" : null, "classes" : true, "context" : "12", "column-width" : null, "gutter-width" : "20px", "gutter-height" : "0", "gutter-top" : "0", "gutter-right" : "10px", "gutter-bottom" : "0", "gutter-left" : "10px", "direction" : "ltr", "dir-attribute" : false, "name-multiplicator" : "1", "states-classes" : true, "classes-prefix" : null, "extends" : null, "_context_changed" : false, "_gutter_changed" : false, "_direction_changed" : false, "_" : true }, "mobile":{ "name" : "mobile", "min-width" : null, "max-width" : "480px", "query" : "screen and (max-width: 480px)", "classes" : true, "context" : "12", "column-width" : null, "gutter-width" : "20px", "gutter-height" : "0", "gutter-top" : "0", "gutter-right" : "10px", "gutter-bottom" : "0", "gutter-left" : "10px", "direction" : "ltr", "dir-attribute" : false, "name-multiplicator" : "1", "states-classes" : true, "classes-prefix" : null, "extends" : "default", "_context_changed" : false, "_gutter_changed" : false, "_direction_changed" : false, "_" : true }, "tablet":{ "name" : "tablet", "min-width" : "481px", "max-width" : "1024px", "query" : "screen and (min-width: 481px) and (max-width: 1024px)", "classes" : true, "context" : "12", "column-width" : null, "gutter-width" : "20px", "gutter-height" : "0", "gutter-top" : "0", "gutter-right" : "10px", "gutter-bottom" : "0", "gutter-left" : "10px", "direction" : "ltr", "dir-attribute" : false, "name-multiplicator" : "1", "states-classes" : true, "classes-prefix" : null, "extends" : "mobile", "_context_changed" : false, "_gutter_changed" : false, "_direction_changed" : false, "_" : true }, "ipad-landscape":{ "name" : "ipad-landscape", "min-width" : null, "max-width" : null, "query" : "only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)", "classes" : true, "context" : "12", "column-width" : null, "gutter-width" : "30px", "gutter-height" : "50px", "gutter-top" : "25px", "gutter-right" : "15px", "gutter-bottom" : "25px", "gutter-left" : "15px", "direction" : "ltr", "dir-attribute" : false, "name-multiplicator" : "1", "states-classes" : true, "classes-prefix" : null, "extends" : "tablet", "_context_changed" : false, "_gutter_changed" : true, "_direction_changed" : false, "_" : true }} }';
 }
 
 .state-default .row {
@@ -9835,11 +9835,20 @@
 .state-default .visible {
   visibility: visible;
 }
+.state-default .clear-each-2 > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
+}
 .state-default .clear-each-2 > [class*="gr-"]:nth-of-type(2n+1) {
   clear: left;
 }
+.state-default .clear-each-3 > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
+}
 .state-default .clear-each-3 > [class*="gr-"]:nth-of-type(3n+1) {
   clear: left;
+}
+.state-default .clear-each-12 > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
 }
 .state-default .clear-each-12 > [class*="gr-"]:nth-of-type(12n+1) {
   clear: both;
@@ -9949,14 +9958,23 @@
   visibility: visible;
 }
 
+.clear-each-2 > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
+}
 .clear-each-2 > [class*="gr-"]:nth-of-type(2n+1) {
   clear: left;
 }
 
+.clear-each-3 > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
+}
 .clear-each-3 > [class*="gr-"]:nth-of-type(3n+1) {
   clear: left;
 }
 
+.clear-each-12 > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
+}
 .clear-each-12 > [class*="gr-"]:nth-of-type(12n+1) {
   clear: both;
 }
@@ -10046,11 +10064,20 @@
 .state-mobile .visible\@mobile {
   visibility: visible;
 }
+.state-mobile .clear-each-2\@mobile > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
+}
 .state-mobile .clear-each-2\@mobile > [class*="gr-"]:nth-of-type(2n+1) {
   clear: left;
 }
+.state-mobile .clear-each-3\@mobile > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
+}
 .state-mobile .clear-each-3\@mobile > [class*="gr-"]:nth-of-type(3n+1) {
   clear: left;
+}
+.state-mobile .clear-each-12\@mobile > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
 }
 .state-mobile .clear-each-12\@mobile > [class*="gr-"]:nth-of-type(12n+1) {
   clear: both;
@@ -10161,14 +10188,23 @@
     visibility: visible;
   }
 
+  .clear-each-2\@mobile > [class*="gr-"]:nth-of-type(n) {
+    clear: none;
+  }
   .clear-each-2\@mobile > [class*="gr-"]:nth-of-type(2n+1) {
     clear: left;
   }
 
+  .clear-each-3\@mobile > [class*="gr-"]:nth-of-type(n) {
+    clear: none;
+  }
   .clear-each-3\@mobile > [class*="gr-"]:nth-of-type(3n+1) {
     clear: left;
   }
 
+  .clear-each-12\@mobile > [class*="gr-"]:nth-of-type(n) {
+    clear: none;
+  }
   .clear-each-12\@mobile > [class*="gr-"]:nth-of-type(12n+1) {
     clear: both;
   }
@@ -10258,11 +10294,20 @@
 .state-tablet .visible\@tablet {
   visibility: visible;
 }
+.state-tablet .clear-each-2\@tablet > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
+}
 .state-tablet .clear-each-2\@tablet > [class*="gr-"]:nth-of-type(2n+1) {
   clear: left;
 }
+.state-tablet .clear-each-3\@tablet > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
+}
 .state-tablet .clear-each-3\@tablet > [class*="gr-"]:nth-of-type(3n+1) {
   clear: left;
+}
+.state-tablet .clear-each-12\@tablet > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
 }
 .state-tablet .clear-each-12\@tablet > [class*="gr-"]:nth-of-type(12n+1) {
   clear: both;
@@ -10373,14 +10418,23 @@
     visibility: visible;
   }
 
+  .clear-each-2\@tablet > [class*="gr-"]:nth-of-type(n) {
+    clear: none;
+  }
   .clear-each-2\@tablet > [class*="gr-"]:nth-of-type(2n+1) {
     clear: left;
   }
 
+  .clear-each-3\@tablet > [class*="gr-"]:nth-of-type(n) {
+    clear: none;
+  }
   .clear-each-3\@tablet > [class*="gr-"]:nth-of-type(3n+1) {
     clear: left;
   }
 
+  .clear-each-12\@tablet > [class*="gr-"]:nth-of-type(n) {
+    clear: none;
+  }
   .clear-each-12\@tablet > [class*="gr-"]:nth-of-type(12n+1) {
     clear: both;
   }
@@ -10478,11 +10532,20 @@
 .state-ipad-landscape .visible\@ipad-landscape {
   visibility: visible;
 }
+.state-ipad-landscape .clear-each-2\@ipad-landscape > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
+}
 .state-ipad-landscape .clear-each-2\@ipad-landscape > [class*="gr-"]:nth-of-type(2n+1) {
   clear: left;
 }
+.state-ipad-landscape .clear-each-3\@ipad-landscape > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
+}
 .state-ipad-landscape .clear-each-3\@ipad-landscape > [class*="gr-"]:nth-of-type(3n+1) {
   clear: left;
+}
+.state-ipad-landscape .clear-each-12\@ipad-landscape > [class*="gr-"]:nth-of-type(n) {
+  clear: none;
 }
 .state-ipad-landscape .clear-each-12\@ipad-landscape > [class*="gr-"]:nth-of-type(12n+1) {
   clear: both;
@@ -10603,14 +10666,23 @@
     visibility: visible;
   }
 
+  .clear-each-2\@ipad-landscape > [class*="gr-"]:nth-of-type(n) {
+    clear: none;
+  }
   .clear-each-2\@ipad-landscape > [class*="gr-"]:nth-of-type(2n+1) {
     clear: left;
   }
 
+  .clear-each-3\@ipad-landscape > [class*="gr-"]:nth-of-type(n) {
+    clear: none;
+  }
   .clear-each-3\@ipad-landscape > [class*="gr-"]:nth-of-type(3n+1) {
     clear: left;
   }
 
+  .clear-each-12\@ipad-landscape > [class*="gr-"]:nth-of-type(n) {
+    clear: none;
+  }
   .clear-each-12\@ipad-landscape > [class*="gr-"]:nth-of-type(12n+1) {
     clear: both;
   }

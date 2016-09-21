@@ -390,6 +390,10 @@
 		}
 
         @each $sel in $sels{
+    		> #{$sel}:nth-of-type(n) {
+				clear : none;
+			}
+
     		> #{$sel}:nth-of-type(#{$clearEach}n+1) {
     			clear : $clearWhat;
     		}

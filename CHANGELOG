@@ -270,3 +270,9 @@ TODO: add row-table class
 # - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 1. Prevent `_parseCss` being trigger more than once.
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# 3.0.11
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. Clear-each now add `clear: none;` to other children.
