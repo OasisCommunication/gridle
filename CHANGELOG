@@ -276,3 +276,9 @@ TODO: add row-table class
 # - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 1. Clear-each now add `clear: none;` to other children.
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# 3.0.12
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. Simplify class overide on different states.
