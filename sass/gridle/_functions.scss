@@ -753,14 +753,14 @@
     $unmatched : ();
 
     // Loop each partern
-	@for $i from length($pattern) through 1 {
+	@for $i from 1 through length($pattern) {
 		$var : nth($pattern, $i);
 		@if $var and str-index($var, '%') == 1 {
 			$token : str-slice($var, 2);
 			// check that the value is part of the token
 			$tokens : map-get($_gridle-names-tokens, $token);
 			@if $tokens == null {
-                $unmatched : map-set($unmatched, $i, $var);
+                $unmatched : map-set($unmatched, $i+0, $var); // $i+0: Bugfix for node sass
 			}
 		}
 	}
@@ -780,14 +780,14 @@
     $matched : ();
 
     // Loop each partern
-	@for $i from length($pattern) through 1 {
+	@for $i from 1 through length($pattern) {
 		$var : nth($pattern, $i);
 		@if $var and str-index($var, '%') == 1 {
 			$token : str-slice($var, 2);
 			// check that the value is part of the token
 			$tokens : map-get($_gridle-names-tokens, $token);
 			@if $tokens != null {
-                $matched : map-set($matched, $i, $var);
+                $matched : map-set($matched, $i+0, $var); // $1+0: Bugfix for node sass
 			}
 		}
 	}

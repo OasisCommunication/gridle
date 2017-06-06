@@ -282,3 +282,9 @@ TODO: add row-table class
 # - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 1. Simplify class overide on different states.
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# 3.0.13
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. Fixed a bug where in node-sass, variable in loop was being referenced and changed the index on every loop.
