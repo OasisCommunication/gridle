@@ -13,15 +13,8 @@ module.exports = (grunt) ->
 	# Configuration
 	# =============
 	grunt.initConfig
-		
-		pkg: grunt.file.readJSON 'package.json'
 
-		compass:
-			options:
-				config: 'config.rb'
-			dist:
-				environment: 'development'
-				outputStyle: 'expanded'			
+		pkg: grunt.file.readJSON 'package.json'
 
 		concat:
 			matchMedia:
@@ -55,9 +48,11 @@ module.exports = (grunt) ->
 				]
 
 		coffee:
-			options: 
+			options:
 				bare: true
 				sourceMap : true
+				transpile:
+					presets: [ "env" ]
 			dist:
 				files: [
 					expand: true
@@ -78,7 +73,7 @@ module.exports = (grunt) ->
 					dest: 'css',
 					ext: '.min.css'
 				}]
-			
+
 		uglify:
 			my_target:
 				files:
@@ -119,15 +114,11 @@ module.exports = (grunt) ->
 				options:
 					title:'Grunt'
 					message: 'All tasks where processed'
-			compass:
-				options:
-					title:'Grunt watcher'
-					message: 'SASS files where processed'
 			coffee:
 				options:
 					title:'Grunt watcher'
 					message: 'Coffee files where processed'
-		
+
 
 	grunt.loadNpmTasks 'grunt-sass'
 	grunt.loadNpmTasks 'grunt-contrib-coffee'
@@ -141,7 +132,6 @@ module.exports = (grunt) ->
 
 	grunt.registerTask 'default', [
 		'clean'
-		'compass'
 		'cssmin'
 		'coffee'
 		'concat'

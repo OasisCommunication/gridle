@@ -1,10 +1,12 @@
 {
   "version": 3,
-  "file": "gridle-eq.js",
-  "sourceRoot": "../coffee/",
   "sources": [
     "gridle-eq.coffee"
   ],
   "names": [],
-  "mappings": ";AAAA;;;;;;;;;;;AAWA,CAAC,SAAC,OAAD;EACA,IAAG,OAAO,MAAP,KAAiB,UAAjB,IAAgC,MAAM,CAAC,GAA1C;IAEC,MAAA,CAAO,EAAP,EAAY,OAAZ,EAFD;GAAA,MAGK,IAAG,OAAO,OAAP,KAAkB,QAArB;IAEJ,OAAA,CAAA,EAFI;GAAA,MAAA;IAKJ,OAAA,CAAA,EALI;;AAJL,CAAD,CAAA,CAWE,SAAA;;AAED;;;AAAA,MAAA;EAGM;;AAEL;;;IAGc,kBAAA;AAGb,UAAA;MAAA,EAAA,GAAS,IAAA,cAAA,CAAA;MACT,EAAE,CAAC,IAAH,CAAA;IAJa;;;AAMd;;;;uBAGA,MAAA,GAAS,SAAA;aACR,cAAc,CAAC,MAAf,CAAA;IADQ;;;;;SAIV,MAAM,CAAC,QAAP,GAAsB,IAAA,QAAA,CAAA;AAvBrB,CAXF"
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAWA,CAAC,UAAA,OAAA,EAAA;AACA,MAAG,OAAA,MAAA,KAAA,UAAA,IAAgC,OAAnC,GAAA,EAAA;;AAEC,WAAA,EAAA,EAFD,OAEC;AAFD,GAAA,MAGK,IAAG,QAAA,OAAA,yCAAA,OAAA,OAAH,QAAA,EAAA;;AAAA;AAAA,GAAA,MAAA;;AAAA;;AAJN,CAAA,EAWE,YAAA;AAKD,MAAA,QAAA;;;;AAAA;;;;AAKC,wBAAc;AAAA;;AAGb,UAAA,EAAA;;AAAA,WAAK,IAAA,cAAA,EAAL;AACA,SAAA,IAAA;AAJD;;;;;;;AALD;AAAA;AAAA,+BAcU;eACR,eAAA,MAAA,E;AADQ;AAdV;;AAAA;AAAA;;SAkBA,OAAA,QAAA,GAAkB,IAAA,QAAA,E;AAlCnB,CAAA",
+  "sourcesContent": [
+    "###\n# Gridle-eq.js\n#\n# This little file is a bridge to support the element queries\n# @copyright marcj https://github.com/marcj/css-element-queries\n#\n# @author \tOlivier Bossel <olivier.bossel@gmail.com>\n# @created \t20.05.14\n# @updated \t09.10.15\n# @version \t1.0.0\n###\n((factory) ->\n\tif typeof define == 'function' and define.amd\n\t\t# AMD. Register as an anonymous module.\n\t\tdefine [ ], factory\n\telse if typeof exports == 'object'\n\t\t# Node/CommonJS\n\t\tfactory()\n\telse\n\t\t# Browser globals\n\t\tfactory()\n\treturn\n) () ->\n\n\t###\n\t# Define class\n\t###\n\tclass GridleEq\n\n\t\t###\n\t\t# Init\n\t\t###\n\t\tconstructor : () ->\n\n\t\t\t# element queries\n\t\t\teq = new ElementQueries()\n\t\t\teq.init()\n\n\t\t###\n\t\t# Update\n\t\t###\n\t\tupdate : () ->\n\t\t\tElementQueries.update()\n\n\t# Init and set in window\n\twindow.GridleEq = new GridleEq()\n\t"
+  ],
+  "sourceRoot": "../coffee/"
 }

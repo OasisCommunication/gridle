@@ -396,6 +396,8 @@
 				@include align-items(center);
 			} @else if $al == bottom {
 				@include align-items(flex-end);
+			} @else if $al == stretch {
+				@include align-items(stretch);
 			}
 		}
 	}

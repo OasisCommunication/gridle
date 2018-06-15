@@ -184,6 +184,9 @@
                 @include gridle_row_align(bottom);
             }
             @if gridle_is_driver(flex) {
+                #{_gridle_classname(row-align, $state, stretch)} {
+                    @include gridle_row_align(stretch);
+                }
                 #{_gridle_classname(row-align, $state, around)} {
                     @include gridle_row_align(around);
                 }
