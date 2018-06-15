@@ -1,7 +1,7 @@
 module.exports = (grunt) ->
 
 	paths =
-		compass:
+		sass:
 			cwd: 'sass'
 			src: '**/*.scss'
 			dest: 'css'
@@ -36,14 +36,14 @@ module.exports = (grunt) ->
 				sourceMap: false
 				precision: 8
 			dist:
-				# files:
-				# 	'css/grid.css':'sass/grid.scss'
-				# 	'css/style.css':'sass/style.scss'
+				files:
+					'css/grid.css':'sass/grid.scss'
+					'css/style.css':'sass/style.scss'
 				files: [
 					expand: true
-					cwd: paths.compass.cwd
-					src: paths.compass.src
-					dest: paths.compass.dest
+					cwd: paths.sass.cwd
+					src: paths.sass.src
+					dest: paths.sass.dest
 					ext: '.css'
 				]
 
@@ -99,8 +99,8 @@ module.exports = (grunt) ->
 				files: 'index.html'
 				tasks: ['notify:default']
 			sass:
-				files: paths.compass.cwd + '/' + paths.compass.src
-				tasks: ['compass', 'cssmin', 'notify:compass']
+				files: paths.sass.cwd + '/' + paths.sass.src
+				tasks: ['sass', 'cssmin', 'notify:sass']
 			coffee:
 				files: paths.coffee.cwd+'/'+paths.coffee.src
 				tasks: ['clean', 'coffee', 'concat', 'uglify', 'notify:coffee']
@@ -122,7 +122,7 @@ module.exports = (grunt) ->
 
 	grunt.loadNpmTasks 'grunt-sass'
 	grunt.loadNpmTasks 'grunt-contrib-coffee'
-	grunt.loadNpmTasks 'grunt-contrib-compass'
+	grunt.loadNpmTasks 'grunt-sass'
 	grunt.loadNpmTasks 'grunt-contrib-watch'
 	grunt.loadNpmTasks 'grunt-contrib-cssmin'
 	grunt.loadNpmTasks 'grunt-notify'
@@ -132,6 +132,7 @@ module.exports = (grunt) ->
 
 	grunt.registerTask 'default', [
 		'clean'
+		'sass'
 		'cssmin'
 		'coffee'
 		'concat'

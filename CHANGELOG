@@ -288,3 +288,10 @@ TODO: add row-table class
 # - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 1. Fixed a bug where in node-sass, variable in loop was being referenced and changed the index on every loop.
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# 3.0.14
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. Added `row-align-stretch` in flex driver;
+2. Update dev dependencies;
