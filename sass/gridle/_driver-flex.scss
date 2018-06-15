@@ -19,12 +19,18 @@
 		}
 		padding-left: 0 !important;
 		padding-right: 0 !important;
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
 		margin-left: -#{gridle_get_state_var(gutter-left)};
 		margin-right: -#{gridle_get_state_var(gutter-right)};
+		margin-top: -#{gridle_get_state_var(gutter-top)};
+		margin-bottom: -#{gridle_get_state_var(gutter-bottom)};
 
         #{_gridle_classname(no-gutter, gridle_current_state_name())} > & {
         	margin-left: 0;
         	margin-right: 0;
+        	margin-top: 0;
+        	margin-bottom: 0;
         }
 
         #{_gridle_classname(no-gutter, gridle_current_state_name(), left)} > & {
@@ -35,9 +41,19 @@
         	margin-right: 0;
         }
 
+        #{_gridle_classname(no-gutter, gridle_current_state_name(), top)} > & {
+        	margin-top: 0;
+        }
+
+        #{_gridle_classname(no-gutter, gridle_current_state_name(), bottom)} > & {
+        	margin-bottom: 0;
+        }
+
         #{_gridle_classname(gutter, gridle_current_state_name())} > & {
     		margin-left: -#{gridle_get_state_var(gutter-left)};
     		margin-right: -#{gridle_get_state_var(gutter-right)};
+    		margin-top: -#{gridle_get_state_var(gutter-top)};
+    		margin-bottom: -#{gridle_get_state_var(gutter-bottom)};
         }
 
         #{_gridle_classname(gutter, gridle_current_state_name(), left)} > & {
@@ -46,6 +62,14 @@
 
         #{_gridle_classname(gutter, gridle_current_state_name(), right)} > & {
     		margin-right: -#{gridle_get_state_var(gutter-right)};
+        }
+
+        #{_gridle_classname(gutter, gridle_current_state_name(), top)} > & {
+    		margin-top: -#{gridle_get_state_var(gutter-top)};
+        }
+
+        #{_gridle_classname(gutter, gridle_current_state_name(), bottom)} > & {
+    		margin-bottom: -#{gridle_get_state_var(gutter-bottom)};
         }
 
 		// do this only when not in generate phase

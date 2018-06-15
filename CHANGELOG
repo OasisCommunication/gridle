@@ -295,3 +295,9 @@ TODO: add row-table class
 
 1. Added `row-align-stretch` in flex driver;
 2. Update dev dependencies;
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# 3.0.15
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. Subtract gutter-height in rows margins;

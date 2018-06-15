@@ -1,7 +1,7 @@
 {
   "name": "gridle-oasis",
   "description": "Gridle grid system",
-  "version": "3.0.14",
+  "version": "3.0.15",
   "main": "sass/gridle/_gridle.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

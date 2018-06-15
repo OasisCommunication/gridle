@@ -118,6 +118,10 @@ module.exports = (grunt) ->
 				options:
 					title:'Grunt watcher'
 					message: 'Coffee files where processed'
+			sass:
+				options:
+					title:'Grunt watcher'
+					message: 'Sass files where processed'
 
 
 	grunt.loadNpmTasks 'grunt-sass'
