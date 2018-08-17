@@ -386,14 +386,29 @@
 // Order
 //
 @mixin _gridle_common_order(
-	$state : default
+    $state : default
 ) {
 }
 @mixin gridle_order(
-	$position
+    $position
 ) {
-	@include _gridle_call(order) {
-	}
+    @include _gridle_call(order) {
+    }
+}
+
+
+//
+// align
+//
+@mixin _gridle_common_align(
+    $state : default
+) {
+}
+@mixin gridle_align(
+    $position
+) {
+    @include _gridle_call(align-self) {
+    }
 }
 
 

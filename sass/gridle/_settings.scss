@@ -123,5 +123,9 @@ $_gridle-packages : (
 	order 								: (
 		classname 							: ('order','-','%column-count','@','%state'),
 		package 							: helpers order
+	),
+	align 								: (
+		classname 							: ('align','-','%align','@','%state'),
+		package 							: helpers align
 	)
 );

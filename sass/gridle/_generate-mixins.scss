@@ -303,6 +303,22 @@
             }
         }
 
+
+        @if _gridle_need_to_generate(align, $package) {
+            #{_gridle_classname(align, $state, top)} {
+                @include gridle_align(flex-start);
+            }
+            #{_gridle_classname(align, $state, bottom)} {
+                @include gridle_align(flex-end);
+            }
+            #{_gridle_classname(align, $state, center)} {
+                @include gridle_align(center);
+            }
+            #{_gridle_classname(align, $state, baseline)} {
+                @include gridle_align(baseline);
+            }
+        }
+
     }
 }
 

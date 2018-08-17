@@ -376,6 +376,22 @@
 
 
 //
+// Align
+//
+@mixin _gridle_common_align(
+	$state : default
+) {
+}
+@mixin gridle_align(
+	$position
+) {
+	@include _gridle_call(align-self) {
+		@include align-self($position);
+	}
+}
+
+
+//
 // Clear each
 //
 @mixin _gridle_common_clear_each(
