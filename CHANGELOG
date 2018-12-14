@@ -307,3 +307,9 @@ TODO: add row-table class
 # - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 1. Added align-* class for aligning col inside row (flex driver only);
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# 3.0.17
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. Allow grow/adapt to work well with states (flex driver only)

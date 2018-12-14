@@ -330,6 +330,7 @@
 @mixin gridle_grid_adapt(
 ) {
 	@include _gridle_call(grid-adapt) {
+		@include _gridle_common_grid_adapt;
 	}
 }
 
@@ -355,6 +356,7 @@
 @mixin gridle_grid_grow(
 ) {
 	@include _gridle_call(grid-grow) {
+		@include _gridle_common_grid_grow;
 	}
 }
 
