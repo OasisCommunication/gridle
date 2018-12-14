@@ -131,15 +131,15 @@
 @mixin _gridle_common_nowrap(
 	$state : default
 ) {
-	@include flex-wrap(nowrap);
-	white-space:nowrap;
-
-	> * {
-		white-space: normal;
-	}
 }
 @mixin gridle_nowrap() {
 	@include _gridle_call(nowrap) {
+		@include flex-wrap(nowrap);
+		white-space:nowrap;
+
+		> * {
+			white-space: normal;
+		}
 	}
 }
 
@@ -150,11 +150,11 @@
 @mixin _gridle_common_wrap(
 	$state : default
 ) {
-	@include flex-wrap(wrap);
-	white-space:normal;
 }
 @mixin gridle_wrap() {
 	@include _gridle_call(wrap) {
+		@include flex-wrap(wrap);
+		white-space:normal;
 	}
 }
 

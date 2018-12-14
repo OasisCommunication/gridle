@@ -312,4 +312,5 @@ TODO: add row-table class
 # 3.0.17
 # - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-1. Allow grow/adapt to work well with states (flex driver only)
+1. Allow grow/adapt to work well with states (flex driver only);
+2. Move wrap/nowrap out of common classes to helper classes;
