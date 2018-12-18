@@ -409,6 +409,17 @@
             }
         }
 
+        @if _gridle_need_to_generate(grid-rightmost, $package) {
+            #{_gridle_classname(grid-rightmost, $state)} {
+                @include gridle_grid_rightmost();
+            }
+        }
+        @if _gridle_need_to_generate(grid-leftmost, $package) {
+            #{_gridle_classname(grid-leftmost, $state)} {
+                @include gridle_grid_leftmost();
+            }
+        }
+
         @if _gridle_need_to_generate(container, $package) {
             #{_gridle_classname(container, $state)} {
                 @include gridle_container();

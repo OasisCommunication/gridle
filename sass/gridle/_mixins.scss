@@ -77,6 +77,8 @@
         wrap,
         clear-each,
         grid-centered,
+        grid-rightmost,
+        grid-leftmost,
         row-align,
         hide,
         not-visible,
@@ -192,6 +194,16 @@
         // centered
         @if $package == grid-centered {
             @include _gridle_common_grid_centered($state);
+        }
+
+        // rightmost
+        @if $package == grid-rightmost {
+            @include _gridle_common_grid_rightmost($state);
+        }
+
+        // leftmost
+        @if $package == grid-leftmost {
+            @include _gridle_common_grid_leftmost($state);
         }
 
         // row-align

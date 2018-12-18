@@ -59,6 +59,14 @@ $_gridle-packages : (
 		classname 							: ('gr','-','centered','@','%state'),
 		package 							: default grid-centered
 	),
+	grid-rightmost 						: (
+		classname 							: ('gr','-','rightmost','@','%state'),
+		package 							: default grid-rightmost
+	),
+	grid-leftmost 						: (
+		classname 							: ('gr','-','leftmost','@','%state'),
+		package 							: default grid-leftmost
+	),
 	push 								: (
 		classname 							: ('push','-','%column','@','%state'),
 		package								: default push

@@ -234,6 +234,10 @@
                 }
             } @else if $sn == grid-centered and $sv == true {
                 @include gridle_grid_centered();
+            } @else if $sn == grid-rightmost and $sv == true {
+                @include gridle_grid_rightmost();
+            } @else if $sn == grid-leftmost and $sv == true {
+                @include gridle_grid_leftmost();
             } @else if $sn == row and $sv == true {
                 @include gridle_row();
             } @else if $sn == row-full and $sv == true {
@@ -654,6 +658,40 @@
 @mixin gridle_grid_centered(
 ) {
     @include _gridle_call(grid-centered) {
+    }
+}
+
+//
+// Rightmost
+//
+@mixin _gridle_common_grid_rightmost(
+    $state : default
+) {
+    display:block !important;
+    float:none !important;
+    margin-left:auto !important;
+    clear:both !important;
+}
+@mixin gridle_grid_rightmost(
+) {
+    @include _gridle_call(grid-rightmost) {
+    }
+}
+
+//
+// Leftmost
+//
+@mixin _gridle_common_grid_leftmost(
+    $state : default
+) {
+    display:block !important;
+    float:none !important;
+    margin-right:auto !important;
+    clear:both !important;
+}
+@mixin gridle_grid_leftmost(
+) {
+    @include _gridle_call(grid-leftmost) {
     }
 }
 

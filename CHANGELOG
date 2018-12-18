@@ -314,3 +314,10 @@ TODO: add row-table class
 
 1. Allow grow/adapt to work well with states (flex driver only);
 2. Move wrap/nowrap out of common classes to helper classes;
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# 3.0.18
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. Added 2 classes : gr-leftmost and gr-rightmost.
+1.1 Push element to the start or the end of the row
